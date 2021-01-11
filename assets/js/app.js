@@ -30,6 +30,12 @@ $(document).ready(function(){
         }, 1000);
     });
 
+    /* hided navbar */
+
+    $(".nav-item").on("click", function(event){
+        $(".navbar-collapse").removeClass("show");
+    });
+
     /* Showed hidden text */
 
 

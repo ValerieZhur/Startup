@@ -33,6 +33,12 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #fff;
 }
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    background-color: #621c18;
+    opacity: 0.8;
+  }
+}
 
 .navbar-toggler span {
   display: block;

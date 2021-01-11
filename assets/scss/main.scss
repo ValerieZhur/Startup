@@ -63,6 +63,10 @@ body {
       color: $white;
     }
   }
+  @media screen and (max-width: 992px) {
+    background-color: $burgundy;
+    opacity: 0.8;
+  }
 }
 
 .navbar-toggler  {
